@@ -15,7 +15,7 @@ hard：4 GPU
 ```text
 usage: server.py [-h] [--mode MODE]
                  [--code SUPERMASK SUPERMASK SUPERMASK SUPERMASK SUPERMASK SUPERMASK SUPERMASK SUPERMASK]
-                 [--model {fl-rl,fl-darts,fl-agcns,fl-random}]
+                 [--model {fl-rl,fl-darts,fl-agnns,fl-random}]
                  [--dataset {citeseer,physics,pubmed,corafull,cora}]
                  [--client CLIENT] [--save_dir SAVE_DIR]
 
@@ -24,7 +24,7 @@ optional arguments:
   --mode MODE           test mode or not
   --code SUPERMASK SUPERMASK SUPERMASK SUPERMASK SUPERMASK SUPERMASK SUPERMASK SUPERMASK
                         code of son net
-  --model {fl-rl,fl-darts,fl-agcns,fl-random}
+  --model {fl-rl,fl-darts,fl-agnns,fl-random}
                         search model
   --dataset {citeseer,physics,pubmed,corafull,cora}
                         used dataset
@@ -36,13 +36,13 @@ optional arguments:
 
 ```text
 usage: client.py [-h] [--mode MODE]
-                 [--model {fl-random,fl-darts,fl-agcns,fl-rl}]
+                 [--model {fl-random,fl-darts,fl-agnns,fl-rl}]
                  [--client CLIENT]
 
 optional arguments:
   -h, --help            show this help message and exit
   --mode MODE           test mode or not
-  --model {fl-random,fl-darts,fl-agcns,fl-rl}
+  --model {fl-random,fl-darts,fl-agnns,fl-rl}
                         search model
   --client CLIENT       the number of clients in the search
 ```
