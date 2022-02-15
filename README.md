@@ -1,6 +1,10 @@
+## paper
+
+Automated Graph Neural Network Search under Federated Learning Framework
+
 ## environment
 
-soft：[torch_geometric](https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html)
+soft：Pytorch, [torch_geometric](https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html)
 
 hard：4 GPU
 
